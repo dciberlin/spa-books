@@ -15,7 +15,7 @@ class BookCollection extends React.Component {
           <img src={book.book_image} alt={book.book_image}></img>
         </div>
         <div className="info">
-          <div className="title">{book.title}</div>
+          <div className="titulo">{book.title}</div>
           <div className="author">{book.author}</div>
           <div className="desc">{book.description}</div>
           <div className="links">
